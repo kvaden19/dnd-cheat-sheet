@@ -1,0 +1,9 @@
+* {
+    background-color: #10ac84; /* Flat UI Canadian Palette */
+    color: white;
+    font-family: 'RocknRoll One', 'Poppins', 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 85px;
+}
