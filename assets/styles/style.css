@@ -1,9 +1,11 @@
-* {
-    background-color: #10ac84; /* Flat UI Canadian Palette */
-    color: white;
-    font-family: 'RocknRoll One', 'Poppins', 'Roboto', sans-serif;
+.card {
+    margin: 15px;
 }
 
-h1 {
-    font-size: 85px;
+.card p {
+    font-size: 36px;
+}
+
+#primary-combat-stats {
+    margin-bottom: 30px;
 }
