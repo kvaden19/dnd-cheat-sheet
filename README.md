@@ -1,9 +1,6 @@
 # dnd-flat-character-sheet
 
-### TODOs:
-- Hit Points - make editable
-    - Make the p a textarea
-    - Grab the input, put it in JS variable, hook it up to local storage
+### TODOs: (9)
 - Attack Roll, Spell Roll, and Damage Roll - make dice
     - Make the cards event listeners
     - Trigger a random number generator (plus mods) in JS

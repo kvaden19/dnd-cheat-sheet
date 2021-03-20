@@ -1,0 +1,23 @@
+:root {
+    --bootstrap_primary: #6d757d;
+}
+
+.card {
+    margin: 15px;
+}
+
+.card p {
+    font-size: 36px;
+}
+
+#primary-combat-stats {
+    margin-bottom: 30px;
+}
+
+#hp {
+    width: 80px;
+    border-style: none;
+    font-size: 36px;
+    color: white;
+    background-color: var(--bootstrap_primary);
+}
