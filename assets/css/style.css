@@ -1,17 +1,22 @@
 :root {
-    --bootstrap_primary: #6d757d;
+    --bootstrap_primary: #007bff;
+    --bootstrap_secondary: #6d757d;
+}
+
+hr {
+    border-top: 1px solid white;
+}
+
+#primary-combat-stats {
+    width: 80%;
 }
 
 .card {
-    margin: 15px;
+    margin: 10px;
 }
 
 .card p {
     font-size: 36px;
-}
-
-#primary-combat-stats {
-    margin-bottom: 30px;
 }
 
 #hp {
@@ -19,5 +24,15 @@
     border-style: none;
     font-size: 36px;
     color: white;
+    background-color: var(--bootstrap_secondary);
+}
+
+#weapon-dropdown {
+    margin-left: 830px;
+    margin-bottom: 50px;
+}
+
+.dropdown-menu {
     background-color: var(--bootstrap_primary);
+    color: white;
 }
